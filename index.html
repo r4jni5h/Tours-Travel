@@ -14,11 +14,20 @@
         <a href="#home" class="logo">Nomader</a>
 
         <nav class="navbar">
+
+            <span class="nav-close" id="nav-close">
+                <i class="fas fa-times"></i>
+            </span>
+
             <a href="#home">Home</a>
             <a href="#category">Adventures</a>
             <a href="#packages">Packages</a>
             <a href="#contact">Contact</a>
         </nav>
+
+        <div class="menu-btn" id="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
 
     </header>
 
@@ -180,22 +189,20 @@
                 <h1>Contact us</h1>
             </div>
             <div class="contact-form">
-                <form method = "post" action = "contact_us.php">
-            <div class="input-fields">
-                
-                <input type="text" class="input"  placeholder="Name" name="name">
-                <input type="email" class="input"  placeholder="Email Address" name="email">
-                <input type="tel" class="input"  placeholder="Phone" name="phone">
-                <input type="text" class="input"  placeholder="Subject" name="subject">
+                <form class="contact-form-inner" method="post" action="#">
+                    <div class="input-fields">
+                        <input type="text" class="input" placeholder="Name" name="name">
+                        <input type="email" class="input" placeholder="Email Address" name="email">
+                        <input type="tel" class="input" placeholder="Phone" name="phone">
+                        <input type="text" class="input" placeholder="Subject" name="subject">
+                    </div>
+                    <div class="msg">
+                        <textarea placeholder="Message" name="message"></textarea><br>
+                        <div class="btn1"><button type="submit">Send <i class="uil uil-message"></i></button></div>
+                    </div>
+                </form>
             </div>
-            <div class="msg">
-                <textarea placeholder="Message" name="message"></textarea> <br>
-                <div class="btn1"><button type="submit">send <i class="uil uil-message"></i></button></div>
-            </div>
-            </form>
-            </div>
-        </div> 
-    
+        </div>
     </section>
 
     <section class="footer">
@@ -204,27 +211,34 @@
 
             <div class="box">
                 <h3>Quick links</h3>
-                <a href="#contact">ask questions</a>
-                <a href="#">term of use</a>
-                <a href="#">privacy policy</a>
+                <a href="#home">Home</a>    
+                <a href="#packages">Packages</a>
+                <a href="#query">Query</a>
             </div>
 
             <div class="box">
-                <h3>contact info</h3>
+                <h3>Extra Links</h3>
+                <a href="#contact">Ask Questions</a>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
                 <a href="tel:+918425933878"> <i class="fas fa-phone"></i>+91 8425933878</a>
                 <a href="mailto: rajnishyadav6658@gmail.com"> <i class="fas fa-envelope"></i> rajnishyadav6658@gmail.com</a>
                 <a href="#"> <i class="fas fa-map"></i> Pune, India</a>
             </div>
 
             <div class="box">
-                <h3>follow us</h3>
+                <h3>Follow Us</h3>
                 <a href="https://www.facebook.com/rajnish101"> <i class="fab fa-facebook-f"></i> facebook </a>
                 <a href="https://www.instagram.com/rajnishh_yadav"> <i class="fab fa-instagram"></i> instagram </a>
                 <a href="https://www.linkedin.com/in/rajnish75/"> <i class="fab fa-linkedin"></i> linkedin </a>
                 <a href="https://github.com/r4jni5h"> <i class="fab fa-github"></i> github </a>
             </div>
         </div>
-        <div class="credit">created by <span>Rajnish Yadav</span>| all rights reserved!</div>
+        <div class="credit">Created by <span>Rajnish Yadav </span>| All Rights Reserved!</div>
     </section>
 
     <script src="script.js"></script>
