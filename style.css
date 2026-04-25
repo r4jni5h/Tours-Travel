@@ -456,6 +456,7 @@ i {
     }
 
     .home .box .content {
+        margin-top: -420px;
         text-align: center;
     }
 
